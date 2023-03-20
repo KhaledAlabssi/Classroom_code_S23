@@ -1,0 +1,41 @@
+
+.lines {
+    text-align: center;
+}
+
+.card {
+    text-align: left;
+    height: 300px;
+    width: 175px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.card img {
+    width: 100%;
+
+}
+
+.para {
+    position: absolute;
+    background-color: red;
+    left: 100px;
+    top: 30px;
+    
+}
+.card-f {
+    position: relative;
+}
+
+.poor-btn {
+    /* position: absolute; */
+}
+
+.bet {
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
