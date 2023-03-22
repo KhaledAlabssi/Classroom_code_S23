@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.parenta {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    background-color: blue;
+    gap: 20px;
+    justify-content: center ;
+    align-items: center;
+}
+
+.child {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid red;
+}
+.parentb {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    gap: 20px;
+    justify-content: center ;
+    align-items: end;
+}
+
+/* @media screen and (min-width: 800px) {
+    .parent {
+        flex-direction: row;
+    }
+    
+} */
