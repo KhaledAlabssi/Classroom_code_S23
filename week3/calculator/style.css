@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    height: 80%;
+    max-width: 500px;
+    width: 90%;
+    background-color: lightsteelblue;
+    
+}
+.screen {
+    height: 20%;
+    
+    margin: 5px;
+    background-color: white;
+    font-size: 4em;
+    justify-content: end;
+    display: flex;
+    align-items: end;
+}
+.buttons {
+    height: 80%;
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row {
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn {
+    width: 22%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
