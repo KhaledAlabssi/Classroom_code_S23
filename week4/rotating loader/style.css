@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.dot {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: orange;
+    position: relative;
+    margin: 200px;
+    border-radius: 50%;
+    animation: loop 1s infinite linear;
+}
+
+.dot::before, .dot::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    color: orangered;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+}
+
+.dot::before {
+    left: -70px;
+    animation: dot 2s .3s infinite;
+}
+
+.dot::after {
+    left: 70px;
+    animation: dot 2s .6s infinite;
+}
+
+@keyframes dot {
+    0%{box-shadow: 0 0 0 0px;}
+    50%{box-shadow: 0 0 0 15px;}
+    100%{box-shadow: 0 0 0 0px;}
+}
+
+@keyframes loop {
+    100%{transform: rotate(360deg);} 
+}
