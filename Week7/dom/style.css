@@ -1,0 +1,14 @@
+p {
+    color: purple;
+
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: lightblue;
+    color: black;
+}
